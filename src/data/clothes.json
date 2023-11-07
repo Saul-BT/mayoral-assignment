@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Camiseta estampada de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "14.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga corta en algodón sostenible para chico",
+    "discount": "10",
+    "price": "29.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Camiseta básica de manga corta en algodón para chica",
+    "discount": "0",
+    "price": "12.99",
+    "hasMoreColors": false
+  },
+  {
+    "name": "Sudadera con capucha y logo estampado para chico",
+    "discount": "15",
+    "price": "39.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Polo de manga larga en algodón piqué para chica",
+    "discount": "20",
+    "price": "24.99",
+    "hasMoreColors": true
+  },
+  {
+    "name": "Sudadera con cremallera y bolsillos para chico",
+    "discount": "5",
+    "price": "49.99",
+    "hasMoreColors": false
+  }
+]
