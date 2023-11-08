@@ -3,8 +3,13 @@
  */
 const config = {
   reactStrictMode: true,
+  publicRuntimeConfig: {
+    api: {
+      clothes: '/api/clothes',
+    },
+  },
   images: {
-    domains: ['source.unsplash.com'],
+    domains: ['assets.mayoral.com'],
   },
 };
 

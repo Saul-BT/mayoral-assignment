@@ -1,0 +1,33 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.sort-buttons {
+    justify-self: end;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: relative;
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
+    .header::after {
+        position: absolute;
+        bottom: 1.5rem;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--color-gray-light);
+    }
+
+    .sort-buttons {
+        justify-self: center;
+        order: -1;
+    }
+}
