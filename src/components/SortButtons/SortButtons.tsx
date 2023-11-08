@@ -11,9 +11,9 @@ type Props = {
 };
 
 export default function SortButtons({ onSort, className }: Props) {
-  const [sortOrder, setSortOrder] = useState(null);
+  const [sortOrder, setSortOrder] = useState<Sort>(null);
 
-  const handleSort = (order) => {
+  const handleSort = (order: Sort) => {
     if (sortOrder === order) {
       setSortOrder(null);
       onSort(null);
