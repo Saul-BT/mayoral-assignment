@@ -1,5 +1,5 @@
-import IconMinus from 'components/icons/IconMinus';
-import IconPlus from 'components/icons/IconPlus';
+import IconMinus from '../icons/IconMinus';
+import IconPlus from '../icons/IconPlus';
 import { Sort } from 'models/sort';
 import { useState } from 'react';
 
@@ -31,6 +31,7 @@ export default function SortButtons({ onSort, className }: Props) {
         aria-label="Sort descending"
         title="Sort descending"
         data-active={sortOrder === 'desc'}
+        data-testid="sort-desc-button"
       >
         <IconMinus size={30} strokeWidth={5} />
       </button>
@@ -40,6 +41,7 @@ export default function SortButtons({ onSort, className }: Props) {
         aria-label="Sort ascending"
         title="Sort ascending"
         data-active={sortOrder === 'asc'}
+        data-testid="sort-asc-button"
       >
         <IconPlus size={30} strokeWidth={5} />
       </button>
