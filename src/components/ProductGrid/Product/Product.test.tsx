@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import ProductItem from './Product';
 import { Product } from 'models/product';
 
-jest.mock('../../lib/money', () => ({
+jest.mock('../../../lib/money', () => ({
     formatEur: jest.fn((price: number) => `${price},00 €`),
     getOfferObject: jest.fn((price: number, discount: number) => ({
         previousPrice: discount && `${price},00 €`,
