@@ -12,11 +12,11 @@ import styles from '../styles/Home.module.css';
 import { Sort } from 'models/sort';
 import { filterProducts } from 'lib/product';
 import Head from 'next/head';
+const {
+  publicRuntimeConfig: { api },
+} = getConfig();
 
 const HomePage: NextPage = () => {
-  const {
-    publicRuntimeConfig: { api },
-  } = getConfig();
   const { data, error, loading } = useFetch<Product[]>(api.clothes);
   const [search, setSearch] = useState('');
   const [sort, setSort] = useState<Sort>(null);

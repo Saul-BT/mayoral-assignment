@@ -27,20 +27,4 @@ describe('SortButtons', () => {
         fireEvent.click(sortDescButton);
         expect(onSortMock).toHaveBeenCalledWith('desc');
     });
-
-    it('should call onSort with null when clicking the "sort ascending" button twice', () => {
-        const { getByTestId } = render(<SortButtons onSort={onSortMock} />);
-        const sortAscButton = getByTestId('sort-asc-button');
-        fireEvent.click(sortAscButton);
-        fireEvent.click(sortAscButton);
-        expect(onSortMock).toHaveBeenCalledWith(null);
-    });
-
-    it('should call onSort with null when clicking the "sort descending" button twice', () => {
-        const { getByTestId } = render(<SortButtons onSort={onSortMock} />);
-        const sortDescButton = getByTestId('sort-desc-button');
-        fireEvent.click(sortDescButton);
-        fireEvent.click(sortDescButton);
-        expect(onSortMock).toHaveBeenCalledWith(null);
-    });
 });

@@ -14,10 +14,7 @@ export default function SortButtons({ onSort, className }: Props) {
   const [sortOrder, setSortOrder] = useState<Sort>(null);
 
   const handleSort = (order: Sort) => {
-    if (sortOrder === order) {
-      setSortOrder(null);
-      onSort(null);
-    } else {
+    if (sortOrder !== order) {
       setSortOrder(order);
       onSort(order);
     }
