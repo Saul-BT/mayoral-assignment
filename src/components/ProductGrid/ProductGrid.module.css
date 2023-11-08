@@ -1,8 +1,8 @@
 .product-grid {
     display: grid;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-items: center;
-    gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {

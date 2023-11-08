@@ -4,9 +4,9 @@
 }
 
 .sort-buttons > button {
-  color: var(--color-gray);
   background-color: transparent;
   border: none;
+  color: var(--color-gray);
   cursor: pointer;
   display: block;
   padding: 0.5rem;

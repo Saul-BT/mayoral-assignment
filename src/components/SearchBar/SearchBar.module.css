@@ -1,21 +1,21 @@
 .search-bar {
-    position: relative;
-    border: 2px solid var(--color-gray-light);
     border-radius: .5rem;
+    border: 2px solid var(--color-gray-light);
+    position: relative;
 }
 
 .search-bar > input {
-    border: none;
-    padding: .5rem .5rem .5rem 2rem;
     border-radius: .5rem;
-    width: 100%;
+    border: none;
     box-sizing: border-box;
+    padding: .5rem .5rem .5rem 2rem;
+    width: 100%;
 }
 
 .search-icon {
-    position: absolute;
-    top: 50%;
     left: .25rem;
-    transform: translateY(-50%);
+    position: absolute;
     stroke: var(--color-gray);
+    top: 50%;
+    transform: translateY(-50%);
 }

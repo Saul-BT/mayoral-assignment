@@ -1,18 +1,18 @@
 .product {
-    display: flex;
-    padding: 1.5rem;
-    flex-direction: column;
-    text-align: center;
     align-items: center;
-    justify-content: space-between;
-    min-width: 100px;
-    max-width: 400px;
-    min-height: 300px;
-    width: 100%;
-    border: 2px solid var(--color-blue-light);
     border-radius: .3rem;
+    border: 2px solid var(--color-blue-light);
     box-shadow: 0 0 10px -5px rgba(0, 0, 0, .4);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    min-height: 300px;
+    min-width: 100px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
 }
 
 .product > figure {
@@ -21,11 +21,11 @@
 }
 
 .title {
+    font-weight: 500;
+    margin-top: 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-weight: 500;
-    margin-top: 1rem;
 }
 
 .price, .previous-price {
@@ -34,8 +34,8 @@
 }
 
 .previous-price {
-    text-decoration: line-through;
     margin-bottom: .5rem;
+    text-decoration: line-through;
 }
 
 .current-offer {
@@ -50,14 +50,14 @@
 }
 
 .button-add {
-    color: var(--color-white);
     background-color: var(--color-blue);
-    border: none;
-    padding: .5rem 1rem;
     border-radius: .3rem;
+    border: none;
     box-shadow: 0 0 10px -5px rgba(0, 0, 0, .4);
-    text-transform: uppercase;
+    color: var(--color-white);
     cursor: pointer;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
