@@ -7,5 +7,5 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   }
   setTimeout(() => {
     res.status(200).json(clothesData);
-  }, Math.random() * 2000);
+  }, Math.random() * 600);
 }
