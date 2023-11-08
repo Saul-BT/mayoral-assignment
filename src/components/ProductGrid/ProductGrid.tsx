@@ -1,4 +1,4 @@
-import ProductItem from 'components/Product/Product';
+import ProductItem from './Product/Product';
 import { Product } from 'models/product';
 
 import styles from './ProductGrid.module.css';
