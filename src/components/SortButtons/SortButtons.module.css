@@ -1,0 +1,17 @@
+.sort-buttons {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.sort-buttons > button {
+  color: var(--color-gray);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  padding: 0.5rem;
+}
+
+.sort-buttons>button[data-active="true"] {
+  color: var(--color-gray-dark);
+}
