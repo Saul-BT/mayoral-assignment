@@ -16,16 +16,16 @@ export default function ProductItem({ product }: Props) {
   return (
     <article className={styles.product}>
       <figure>
-        <Image src={image} alt={name} width={300} height={300} />
+        <Image src={image} alt={name} width={300} height={300} objectFit='cover' />
         <figcaption className={styles.title}>{name}</figcaption>
       </figure>
       {offer.discountPercentage ? (
-        <>
+        <div>
           <p className={styles['previous-price']}>{offer.previousPrice}</p>
           <p className={styles['current-offer']}>
             {offer.currentPrice} ({offer.discountPercentage})
           </p>
-        </>
+        </div>
       ) : (
         <p className={styles['price']}>{formatEur(price)}</p>
       )}

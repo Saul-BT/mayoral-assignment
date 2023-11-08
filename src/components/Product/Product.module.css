@@ -5,11 +5,14 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
-    min-height: 500px;
+    min-width: 100px;
+    max-width: 400px;
+    min-height: 300px;
+    width: 100%;
     border: 2px solid var(--color-blue-light);
     border-radius: .3rem;
     box-shadow: 0 0 10px -5px rgba(0, 0, 0, .4);
+    box-sizing: border-box;
 }
 
 .product > figure {
@@ -32,13 +35,13 @@
 
 .previous-price {
     text-decoration: line-through;
-    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .current-offer {
     color: var(--color-red-dark);
-    margin-top: .5rem;
     font-weight: 300;
+    margin-top: .5rem;
 }
 
 .more-colors {
@@ -55,4 +58,10 @@
     box-shadow: 0 0 10px -5px rgba(0, 0, 0, .4);
     text-transform: uppercase;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        padding: 1rem;
+    }
 }
