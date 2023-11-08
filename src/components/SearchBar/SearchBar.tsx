@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import styles from './SearchBar.module.css';
-import IconSearch from 'components/icons/IconSearch';
+import IconSearch from '../icons/IconSearch';
 
 type Props = {
   onSearch: (search: string) => void;
@@ -25,7 +25,8 @@ export default function SearchBar({ onSearch }: Props) {
   return (
     <div className={styles['search-bar']}>
       <IconSearch className={styles['search-icon']} size={20} />
-      <input type="search" placeholder="Buscar" value={search} onChange={handleSearch} />
+      <input type="search" placeholder="Buscar" value={search} onChange={handleSearch} data-testid="search-input"
+       />
     </div>
   );
 }
