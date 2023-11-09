@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
-import styles from './SearchBar.module.css';
 import IconSearch from '../icons/IconSearch';
+import styles from './SearchBar.module.css';
 
 type Props = {
   onSearch: (search: string) => void;

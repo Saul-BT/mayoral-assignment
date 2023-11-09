@@ -1,9 +1,8 @@
 import IconMinus from '../icons/IconMinus';
 import IconPlus from '../icons/IconPlus';
 import { Sort } from 'models/sort';
-import { useState } from 'react';
-
 import styles from './SortButtons.module.css';
+import { useState } from 'react';
 
 type Props = {
   onSort: (sort: Sort) => void;

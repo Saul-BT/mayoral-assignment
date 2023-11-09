@@ -1,6 +1,5 @@
-import ProductItem from './Product/Product';
 import { Product } from 'models/product';
-
+import ProductItem from './Product/Product';
 import styles from './ProductGrid.module.css';
 
 type Props = {

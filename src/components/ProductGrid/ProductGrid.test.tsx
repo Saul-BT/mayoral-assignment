@@ -1,6 +1,6 @@
-import { render } from '@testing-library/react';
-import ProductGrid from './ProductGrid';
 import { Product } from 'models/product';
+import ProductGrid from './ProductGrid';
+import { render } from '@testing-library/react';
 
 const mockProducts: Product[] = [
   {
