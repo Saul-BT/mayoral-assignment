@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
-import ProductItem from './Product';
+
 import { Product } from 'models/product';
+import ProductItem from './Product';
 
 jest.mock('../../../lib/money', () => ({
     formatEur: jest.fn((price: number) => `${price},00 €`),

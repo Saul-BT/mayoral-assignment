@@ -45,7 +45,7 @@
 }
 
 .more-colors {
-    color: var(--color-gray);
+    color: var(--color-gray-dark);
     margin-top: .5rem;
 }
 
