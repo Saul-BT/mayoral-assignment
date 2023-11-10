@@ -4,11 +4,12 @@ import IconSearch from '../icons/IconSearch';
 import styles from './SearchBar.module.css';
 
 type Props = {
-  onSearch: (search: string) => void;
+  onSearch?: (search: string) => void;
+  defaultValue?: string;
 };
 
-export default function SearchBar({ onSearch }: Props) {
-  const [search, setSearch] = useState('');
+export default function SearchBar({ defaultValue, onSearch }: Props) {
+  const [search, setSearch] = useState(defaultValue || '');
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {

@@ -27,4 +27,19 @@ describe('SearchBar', () => {
       expect(onSearchMock).toHaveBeenCalledWith('');
     });
   });
+
+  it('should render with the default value if provided', () => {
+    const defaultValue = 'default value';
+    const { getByTestId } = render(<SearchBar defaultValue={defaultValue} />);
+    const input = getByTestId('search-input') as HTMLInputElement;
+
+    expect(input.value).toBe(defaultValue);
+  });
+
+  it('should render with an empty value if defaultValue is not provided', () => {
+    const { getByTestId } = render(<SearchBar />);
+    const input = getByTestId('search-input') as HTMLInputElement;
+
+    expect(input.value).toBe('');
+  });
 });
