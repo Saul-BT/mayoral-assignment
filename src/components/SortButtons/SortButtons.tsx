@@ -5,12 +5,13 @@ import styles from './SortButtons.module.css';
 import { useState } from 'react';
 
 type Props = {
-  onSort: (sort: Sort) => void;
+  onSort?: (sort: Sort) => void;
+  defaultValue?: Sort;
   className?: string;
 };
 
-export default function SortButtons({ onSort, className }: Props) {
-  const [sortOrder, setSortOrder] = useState<Sort>(null);
+export default function SortButtons({ onSort, defaultValue, className }: Props) {
+  const [sortOrder, setSortOrder] = useState<Sort>(defaultValue || null);
 
   const handleSort = (order: Sort) => {
     if (sortOrder !== order) {
