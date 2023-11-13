@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
-
 import IconSearch from '../icons/IconSearch';
 import styles from './SearchBar.module.css';
+import useDebounceCallback from 'hooks/useDebounceCallback';
 
 type Props = {
   onSearch?: (search: string) => void;
@@ -9,25 +8,22 @@ type Props = {
 };
 
 export default function SearchBar({ defaultValue, onSearch }: Props) {
-  const [search, setSearch] = useState(defaultValue || '');
-
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      onSearch(search);
-    }, 500);
-
-    return () => clearTimeout(timeoutId);
-  }, [search, onSearch]);
+  const debouncedSearch = useDebounceCallback((search: string) => onSearch?.(search));
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearch(event.target.value);
+    debouncedSearch(event.target.value);
   };
 
   return (
     <div className={styles['search-bar']}>
       <IconSearch className={styles['search-icon']} size={20} />
-      <input type="search" placeholder="Buscar" value={search} onChange={handleSearch} data-testid="search-input"
-       />
+      <input
+        type="search"
+        placeholder="Buscar"
+        defaultValue={defaultValue}
+        onChange={handleSearch}
+        data-testid="search-input"
+      />
     </div>
   );
 }
