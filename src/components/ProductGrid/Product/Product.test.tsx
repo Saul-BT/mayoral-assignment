@@ -3,14 +3,7 @@ import { render, screen } from '@testing-library/react';
 import { Product } from 'models/product';
 import ProductItem from './Product';
 
-jest.mock('../../../lib/money', () => ({
-    formatEur: jest.fn((price: number) => `${price},00 €`),
-    getOfferObject: jest.fn((price: number, discount: number) => ({
-        previousPrice: discount && `${price},00 €`,
-        currentPrice: `${price - discount},00 €`,
-        discountPercentage: discount && `${discount}%`,
-    })),
-}));
+jest.mock('../../../lib/money');
 
 const product: Product = {
     id: 0,
